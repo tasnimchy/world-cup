@@ -1,0 +1,459 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body {
+    overflow-y: scroll;
+} */
+
+
+/* min-height: 100vh; */
+/* display: flex;
+flex-direction: column; */
+
+/* .main-top-section {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #FFFFFF;
+} */
+
+.main-section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-section {
+    display: flex;
+    background-color: #161616;
+    max-width: 1321px;
+    max-height: 646px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+    border-radius: 30px;
+    overflow: hidden;
+    /* width: 85%; */
+    /* position: absolute; */
+    
+    
+    
+}
+
+.live-text {
+    height: 100%;
+    width: 50%;
+    color: #FFFFFF;
+    margin-top: 25vh;
+    margin-left: 106px;
+    margin: 88px 24px 88px 106px;
+    position: relative;
+}
+.live-text > h1 {
+    font-size: 70px;
+}
+
+.button {
+    width: 187px;
+    padding: 16px 25px;
+    margin-top: 20px;
+    background-color: #DD0000;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.banner-image {
+    height: fit-content;
+    width: 50%;
+}
+
+
+/* Last Section Style */
+.last-section {
+    /* min-height: 100vh; */
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 130px;
+  }
+
+  .side-nav {
+    background-color: #161616;
+    /* width: 312px; */
+    height: 312px;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-basis: 312px;
+	flex-grow: 0;
+	flex-shrink: 0;
+  }
+
+  .nav-button {
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #161616;
+  }
+
+  .different-style {
+    background: #DD0000;
+    color: #FFFFFF;
+  }
+
+  .blogs {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+}
+
+  .blog {
+    width: 312px;
+    height: 362px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .blog img {
+    margin-top: 0;
+    width: 312px;
+    height: 175px;
+}
+
+.blog-info {
+    padding: 20px;
+}
+
+.transfer-button {
+    margin-bottom: 15px;
+    background-color: transparent;
+    padding: 4px 16px;
+    color: #161616;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.blog-info > h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.blog-info-value {
+    display: flex;
+    gap: 30px;
+}
+
+.icon-margin {
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #161616;
+    height: 444px;
+    text-align: center;
+    padding: 8%;
+}
+
+footer > h2 {
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+footer > hr {
+    width: 80%;
+    margin: auto;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-nav {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.footer-nav > a {
+    text-decoration: none;
+    color: #B9B9B9;
+}
+
+/* ------------------------------------------------------------------------ */
+.blog-match {
+    width: 312px;
+    height: 242px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 53px 30px; */
+    gap: 60px;
+  }
+
+.match {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;    
+}
+
+.match > img {
+    width: 93px;
+    height: 54px;
+}
+
+.match-info {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.match > h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #161616;
+}
+
+.match > p {
+    text-align: center;
+    color: #4D4D4D;
+}
+
+/* ---------------------------- Media Query ------------------------------ */
+
+@media only screen and (max-width: 767px) {
+    .main-section {
+        min-height: 100vh;
+        /* margin-top: 0px; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .top-section {
+        width: 90%;
+        flex-direction: column;
+        max-height: max-content;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }  
+
+    .live-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 28px 38px;
+    }
+
+    .live-text > h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .live-text > p {
+        font-size: 14px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .button {
+        width: 200px;
+    }
+    .banner-image {
+        min-width: 100%;
+        height: 400px;
+        text-align: center;
+    }
+
+    .banner-image > img {        
+        min-height: 100%;
+        min-width: 50%;
+    }
+
+    .last-section {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .side-nav {
+        background-color: transparent;    
+    }
+
+    .nav-button {
+        background-color: #FFFFFF;
+        padding: 15px 30px;
+        width: fit-content;
+        text-align: center;
+        color: #161616;
+        font-size: 20px;
+    }
+
+    .different-style {
+        background: #DD0000;
+        color: #FFFFFF;
+        padding: 15px 52px;
+      }
+
+      .blogs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+      }
+      .blog{
+        width: fit-content;
+        height: fit-content;
+      }
+      .thumbnail {
+        width: 100%;
+      }
+      .blog img {
+        width: 100%;
+        height: 200px;
+      }
+      footer {
+        height: fit-content;
+      }
+      .footer-nav{
+        flex-direction: column;
+        gap: 20px;
+      }
+}
+
+/* --------------------------- 
+Media Query for Tablets
+--------------------------- */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main-section {
+        min-height: 100vh;
+        /* margin-top: 0px; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .top-section {
+        width: 90%;
+        flex-direction: column;
+        max-height: max-content;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }  
+
+    .live-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 28px 38px;
+    }
+
+    .live-text > h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .live-text > p {
+        font-size: 14px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .button {
+        width: 200px;
+    }
+    .banner-image {
+        min-width: 100%;
+        height: 400px;
+        text-align: center;
+    }
+
+    .banner-image > img {        
+        min-height: 100%;
+        min-width: 50%;
+    }
+
+    .last-section {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .side-nav {
+        background-color: transparent;
+        flex-direction: row; 
+        gap: 22px;   
+    }
+
+    .nav-button {
+        background-color: #FFFFFF;
+        padding: 15px 10px;
+        /* width: fit-content; */
+        text-align: center;
+        color: #161616;
+        font-size: 22px;
+    }
+
+    .different-style {
+        background: #DD0000;
+        color: #FFFFFF;
+        padding: 15px 52px;
+      }
+
+      .blogs {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 24px;
+        grid-column-gap: 24px;
+      }
+      .blog{
+        width: fit-content;
+        height: fit-content;
+      }
+      .thumbnail {
+        width: 100%;
+      }
+      .blog img {
+        width: 100%;
+        height: 200px;
+      }
+      footer {
+        height: fit-content;
+      }
+      .footer-nav{
+        flex-direction: column;
+        gap: 20px;
+      }
+}
