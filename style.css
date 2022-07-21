@@ -4,6 +4,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
 .main-section {
     background-color: #E8E8E8;
     min-height: 100vh;
@@ -40,6 +41,7 @@ Main Top-Section Style
 .live-text > h1 {
     font-size: 70px;
 }
+
 .button {
     width: 187px;
     padding: 16px 25px;
@@ -300,6 +302,9 @@ Media Query for Tablets
         background: #65468D;
         color: #FFFFFF;
         padding: 15px 52px;
+    }
+    .tablet-mode {
+        padding: 0;
     }
 
     .blogs {
