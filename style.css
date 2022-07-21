@@ -25,6 +25,7 @@ Main Top-Section Style
 .top-section {
     display: flex;
     background-color: #2D2D2D;
+    width: 90%;
     max-width: 1321px;
     max-height: 646px;
     margin-top: 50px;
