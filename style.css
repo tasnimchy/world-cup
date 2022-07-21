@@ -5,6 +5,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 .main-section {
     background-color: #E8E8E8;
     min-height: 100vh;
@@ -244,7 +246,7 @@ Media Query for Tablets
         max-height: max-content;
         justify-content: center;
         align-items: center;
-        margin-top: 0;
+        margin-top: 40px;
         margin-bottom: 0;
     }  
 
@@ -284,6 +286,7 @@ Media Query for Tablets
         width: 90%;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 30px;
     }
 
     .side-nav {
@@ -405,6 +408,8 @@ Media Query for Smartphone
         width: 90%;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 40px;
+
     }
 
     .side-nav {
