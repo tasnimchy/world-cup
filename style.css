@@ -4,8 +4,8 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-
 .main-section {
+    background-color: #E8E8E8;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -13,9 +13,14 @@
     justify-content: center;
     align-items: center;
 }
+
+/* --------------------------- 
+Main Top-Section Style
+--------------------------- */
+
 .top-section {
     display: flex;
-    background-color: #161616;
+    background-color: #2D2D2D;
     max-width: 1321px;
     max-height: 646px;
     margin-top: 50px;
@@ -23,8 +28,6 @@
     border-radius: 30px;
     overflow: hidden;   
 }
-
-
 .live-text {
     height: 100%;
     width: 50%;
@@ -37,7 +40,6 @@
 .live-text > h1 {
     font-size: 70px;
 }
-
 .button {
     width: 187px;
     padding: 16px 25px;
@@ -50,24 +52,24 @@
     align-items: center;
     font-size: 18px;
 }
-
 .banner-image {
     height: fit-content;
     width: 50%;
 }
 
+/* --------------------------- 
+Main Last-Section Style
+--------------------------- */
 
-/* Last Section Style */
 .last-section {
     width: 100%;
     display: flex;
     gap: 24px;
     justify-content: center;
     margin-bottom: 130px;
-  }
-
-  .side-nav {
-    background-color: #161616;
+}
+.side-nav {
+    background-color: #2D2D2D;
     height: 312px;
     border-radius: 10px; 
     display: flex;
@@ -77,60 +79,52 @@
     flex-basis: 312px;
 	flex-grow: 0;
 	flex-shrink: 0;
-  }
-
-  .nav-button {
+}
+.nav-button {
     width: 252px;
     height: 64px;
     border-radius: 10px;
     font-size: 20px;
-    color: #161616;
-  }
-
-  .nav-button > a {
+    color: #2D2D2D;
+}
+.nav-button > a {
     text-decoration: none;
-    color: #161616;
-  }
-
-  .different-style {
+    color: #2D2D2D;
+}
+.different-style {
     background: #DD0000;
     color: #FFFFFF;
-  }
-
-  .blogs {
+}
+.blogs {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 24px;
     grid-column-gap: 24px;
 }
-
-  .blog {
+.blog {
     width: 312px;
     height: 362px;
-    border: 1px solid #E8E8E8;
+    border: 1px solid #B0B0B0;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-  }
-
-  .blog img {
+}
+.blog img {
     margin-top: 0;
     width: 312px;
     height: 175px;
 }
-
 .blog-info {
     padding: 20px;
 }
-
 .transfer-button {
     margin-bottom: 15px;
     background-color: transparent;
     padding: 4px 16px;
-    color: #161616;
-    border: 1px solid #161616;
+    color: #2D2D2D;
+    border: 1px solid #2D2D2D;
     border-radius: 5px;
     font-size: 16px;
 }
@@ -138,66 +132,59 @@
     font-size: 18px;
     margin-bottom: 20px;
 }
-
 .blog-info-value {
     display: flex;
     gap: 30px;
 }
-
 .icon-margin {
     margin-right: 10px;
 }
-
 .view-all-button {
     display: none;
 }
-
 footer {
-    background-color: #161616;
+    background-color: #2D2D2D;
     height: 444px;
     text-align: center;
     padding: 8%;
 }
-
 footer > h2 {
     font-size: 40px;
     color: #FFFFFF;
     padding-bottom: 50px;
 }
-
 footer > hr {
     width: 80%;
     margin: auto;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
-
 .footer-nav {
     padding-top: 50px;
     display: flex;
     justify-content: center;
     gap: 70px;
 }
-
 .footer-nav > a {
     text-decoration: none;
     color: #B9B9B9;
 }
-
 .social-icon {
     margin-top: 25px;
 }
-
 .social-icon > a {
     text-decoration: none;
     color: #B9B9B9;
     font-size: 30px;
     margin: 0 40px;
 }
-/* ------------------------------------------------------------------------ */
+
+/* --------------------------- 
+Style for Upcoming Match Page
+--------------------------- */
 .blog-match {
     width: 312px;
     height: 242px;
-    border: 1px solid #E8E8E8;
+    border: 1px solid #B0B0B0;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -228,7 +215,7 @@ footer > hr {
 .match > h2 {
     font-size: 20px;
     text-align: center;
-    color: #161616;
+    color: #2D2D2D;
 }
 
 .match > p {
@@ -268,7 +255,6 @@ Media Query for Tablets
         margin: 0;
         padding: 28px 38px;
     }
-
     .live-text > h1 {
         font-size: 50px;
         text-align: center;
@@ -281,12 +267,12 @@ Media Query for Tablets
     .button {
         width: 200px;
     }
+
     .banner-image {
         min-width: 100%;
         height: 400px;
         text-align: center;
     }
-
     .banner-image > img {        
         min-height: 100%;
         min-width: 50%;
@@ -303,40 +289,38 @@ Media Query for Tablets
         flex-direction: row; 
         gap: 22px;   
     }
-
     .nav-button {
         background-color: #FFFFFF;
         padding: 15px 10px;
         text-align: center;
-        color: #161616;
+        color: #2D2D2D;
         font-size: 22px;
     }
-
     .different-style {
         background: #DD0000;
         color: #FFFFFF;
         padding: 15px 52px;
-      }
+    }
 
-      .blogs {
+    .blogs {
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-row-gap: 24px;
         grid-column-gap: 24px;
-      }
-      .blog{
+    }
+    .blog{
         width: fit-content;
         height: fit-content;
-      }
-      .thumbnail {
+    }
+    .thumbnail {
         width: 100%;
-      }
-      .blog img {
+    }
+    .blog img {
         width: 100%;
         height: 200px;
-      }
+    }
 
-      .view-all-button {
+    .view-all-button {
         padding: 15px 40px;
         font-size: 22px;
         display: block;
@@ -344,14 +328,15 @@ Media Query for Tablets
         color: #FFFFFF;
         border-radius: 10px;
         border: transparent;
-      }
-      footer {
+    }
+
+    footer {
         height: fit-content;
-      }
-      .footer-nav{
+    }
+    .footer-nav{
         flex-direction: row;
         gap: 20px;
-      }
+    }
 }
 
 
@@ -388,7 +373,6 @@ Media Query for Smartphone
         margin: 0;
         padding: 28px 38px;
     }
-
     .live-text > h1 {
         font-size: 50px;
         text-align: center;
@@ -401,12 +385,12 @@ Media Query for Smartphone
     .button {
         width: 200px;
     }
+
     .banner-image {
         min-width: 100%;
         height: 400px;
         text-align: center;
     }
-
     .banner-image > img {        
         min-height: 100%;
         min-width: 50%;
@@ -421,52 +405,49 @@ Media Query for Smartphone
     .side-nav {
         background-color: transparent;    
     }
-
     .nav-button {
         background-color: #FFFFFF;
         padding: 15px 30px;
         width: fit-content;
         text-align: center;
-        color: #161616;
+        color: #2D2D2D;
         font-size: 20px;
     }
-
     .different-style {
         background: #DD0000;
         color: #FFFFFF;
         padding: 15px 52px;
-      }
+    }
 
-      .blogs {
+    .blogs {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 90%;
-      }
-      .blog{
+    }
+    .blog{
         width: fit-content;
         height: fit-content;
-      }
-      .thumbnail {
+    }
+    .thumbnail {
         width: 100%;
-      }
-      .blog img {
+    }
+    .blog img {
         width: 100%;
         height: 200px;
-      }
+    }
 
-      footer {
+    footer {
         height: fit-content;
-      }
-      .footer-nav{
+    }
+    .footer-nav{
         flex-direction: column;
         gap: 20px;
-      }
+    }
 
-      .social-icon > a {;
+    .social-icon > a {;
         margin: 0 10px;
     }
-      
 }
 
